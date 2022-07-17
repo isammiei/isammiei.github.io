@@ -15,12 +15,20 @@
           
           <category> 学习 </category>
           
+          <category> Hexo </category>
+          
       </categories>
       
       
         <tags>
             
-            <tag> -Hexo -Markdown -VSCode -Github </tag>
+            <tag> Hexo </tag>
+            
+            <tag> Markdown </tag>
+            
+            <tag> VSCode </tag>
+            
+            <tag> Github </tag>
             
         </tags>
       
