@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="使用Artitalk为Hexo添加说说模块, Sammie">
+    <meta name="keywords" content="使用Valine给Hexo主题添加评论模块,解决评论无法提交的问题, Sammie">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>使用Artitalk为Hexo添加说说模块 | Sammie</title>
+    <title>使用Valine给Hexo主题添加评论模块,解决评论无法提交的问题 | Sammie</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -335,12 +335,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/18.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">使用Artitalk为Hexo添加说说模块</h1>
+                    <h1 class="description center-align post-title">使用Valine给Hexo主题添加评论模块,解决评论无法提交的问题</h1>
                 </div>
             </div>
         </div>
@@ -378,8 +378,8 @@
                                 <span class="chip bg-color">Github</span>
                             </a>
                         
-                            <a href="/tags/Artitalk/">
-                                <span class="chip bg-color">Artitalk</span>
+                            <a href="/tags/Valine/">
+                                <span class="chip bg-color">Valine</span>
                             </a>
                         
                     </div>
@@ -407,21 +407,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-07-18
+                    2022-07-20
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-07-18
+                    2022-07-20
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    725
+                    536
                 </div>
                 
 
@@ -451,118 +451,49 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="hexo使用文档-Artitalk-js"><a href="#hexo使用文档-Artitalk-js" class="headerlink" title="hexo使用文档 | Artitalk.js"></a>hexo使用文档 | Artitalk.js</h2><p><a target="_blank" rel="noopener" href="https://artitalk.js.org/doc.html#%F0%9F%91%80-%E5%89%8D%E8%A8%80">https://artitalk.js.org/doc.html#%F0%9F%91%80-%E5%89%8D%E8%A8%80</a>      </p>
-<h2 id="LeanCloud-的相关准备"><a href="#LeanCloud-的相关准备" class="headerlink" title="LeanCloud 的相关准备"></a>LeanCloud 的相关准备</h2><ol>
-<li><p>前往 LeanCloud 国际版，注册账号。<a target="_blank" rel="noopener" href="https://console.leancloud.app/apps">https://console.leancloud.app/apps</a>     </p>
-</li>
-<li><p>注册完成之后根据 LeanCloud 的提示绑定手机号和邮箱。<br>绑定完成之后点击创建应用，应用名称随意，</p>
-</li>
-</ol>
-<img src="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/%E5%9B%BE%E7%89%871.png" class="">
+                <h2 id="介绍-Valine-一款快速、简洁且高效的无后端评论系统。"><a href="#介绍-Valine-一款快速、简洁且高效的无后端评论系统。" class="headerlink" title="介绍 | Valine 一款快速、简洁且高效的无后端评论系统。"></a>介绍 | Valine 一款快速、简洁且高效的无后端评论系统。</h2><p><a target="_blank" rel="noopener" href="https://valine.js.org/">https://valine.js.org/</a>      </p>
+<h2 id="LeanCloud"><a href="#LeanCloud" class="headerlink" title="LeanCloud"></a>LeanCloud</h2><p><a target="_blank" rel="noopener" href="https://console.leancloud.app/apps">https://console.leancloud.app/apps</a>        </p>
+<p>TIP:如果有这个需要，可以将 artitalk 与 valine 存放在同一个应用中。可以有效避免同一个页面使用两个leancloud应用所产生的冲突。     </p>
+<p>我的hexo主题安装在D:\Blog路径下。       </p>
+<p>由于我之前已经使用artitalk.js实现了说说模块，所以我接下来的操作都在当时创建的应用上进行。使用Artitalk为Hexo添加说说模块 | Sammie<br><a target="_blank" rel="noopener" href="https://isammiei.github.io/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/">https://isammiei.github.io/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/</a>       </p>
+<p>登录LeanCloud国际版，打开应用，在结构化数据中创建 class，命名为 Comment。      </p>
+<img src="/2022/07/20/shi-yong-valine-gei-hexo-zhu-ti-tian-jia-ping-lun-mo-kuai-jie-jue-ping-lun-wu-fa-ti-jiao-de-wen-ti/%E5%9B%BE%E7%89%871.png" class="">       
 
-<img src="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/%E5%9B%BE%E7%89%872.png" class="">
+<p>编辑matery主题的配置文件_config.yml中，修改Valine属性：<br>（我的文件在D:\Blog\themes\matery路径下）       </p>
+<img src="/2022/07/20/shi-yong-valine-gei-hexo-zhu-ti-tian-jia-ping-lun-mo-kuai-jie-jue-ping-lun-wu-fa-ti-jiao-de-wen-ti/%E5%9B%BE%E7%89%872.png" class="">       
 
-<img src="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/%E5%9B%BE%E7%89%873.png" class="">
+<p>找到js:开头的代码块，找到valine属性，将其修改为     </p>
+<pre class="line-numbers language-none"><code class="language-none">valine: https://unpkg.com/valine/dist/Valine.min.js      <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<ol start="3">
-<li>接着在结构化数据中创建 class，命名为 shuoshuo。</li>
-</ol>
-<img src="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/%E5%9B%BE%E7%89%874.png" class="">
+<img src="/2022/07/20/shi-yong-valine-gei-hexo-zhu-ti-tian-jia-ping-lun-mo-kuai-jie-jue-ping-lun-wu-fa-ti-jiao-de-wen-ti/%E5%9B%BE%E7%89%873.png" class="">       
 
-<ol start="4">
-<li>在你新建的应用中找到结构化数据下的用户。点击添加用户，输入想用的用户名及密码。</li>
-</ol>
-<img src="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/%E5%9B%BE%E7%89%875.png" class="">
+<p>在D盘，选中Blog文件夹，右键，选择Git Bush Here，输入以下命令查看效果<code>hexo g &amp;&amp; hexo s</code>出现如下页面        </p>
+<img src="/2022/07/20/shi-yong-valine-gei-hexo-zhu-ti-tian-jia-ping-lun-mo-kuai-jie-jue-ping-lun-wu-fa-ti-jiao-de-wen-ti/%E5%9B%BE%E7%89%874.png" class="">       
 
-<img src="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/%E5%9B%BE%E7%89%876.png" class="">
+<p>但我到了此步，出现了一个问题，评论无法提交！        </p>
+<p>参考了这篇文章，解决了问题      </p>
+<p>【解决方法】Valine评论不显示_靖待的博客-CSDN博客        </p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/hubojing/article/details/121770387">https://blog.csdn.net/hubojing/article/details/121770387</a>      </p>
+<p>如果主题中已配置的Valine有severURLs字段，直接设置即可。比如在D:\Blog\themes\matery路径下的_config.yml文件中     </p>
+<pre class="line-numbers language-none"><code class="language-none">serverURLs: https://xxxxxxxx.api.lncldglobal.com # 把xxxxxxxx替换为自己AppID的前8位字符<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<ol start="5">
-<li>回到结构化数据中，点击 class 下的 shuoshuo。找到权限，在 Class 访问权限中将 add_fields 以及 create 权限设置为指定用户，输入你刚才输入的用户名会自动匹配。为了安全起见，将 delete 和 update 也设置为跟它们一样的权限。</li>
-</ol>
-<img src="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/%E5%9B%BE%E7%89%877.png" class="">
+<img src="/2022/07/20/shi-yong-valine-gei-hexo-zhu-ti-tian-jia-ping-lun-mo-kuai-jie-jue-ping-lun-wu-fa-ti-jiao-de-wen-ti/%E5%9B%BE%E7%89%875.png" class="">       
 
-<ol start="6">
-<li>然后新建一个名为atComment的class，权限什么的使用默认的即可。</li>
-</ol>
-<img src="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/%E5%9B%BE%E7%89%878.png" class="">
+<p>如果主题中已配置的Valine没有severURLs字段，找到valine的js文件，增加一行代码，       </p>
+<pre class="line-numbers language-none"><code class="language-none">serverURLs: '&lt;%= theme.valine.serverURLs %&gt;'  // 增加这一行！！！<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>      
 
-<img src="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/%E5%9B%BE%E7%89%879.png" class="">
+<p>比如我的在D:\Blog\themes\matery\layout_partial路径下的valine.ejs       </p>
+<p>把<code>&lt;script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"&gt;&lt;/script&gt;      </code></p>
+<p>替换成</p>
+<pre class="line-numbers language-none"><code class="language-none">&lt;script src="&lt;%- theme.jsDelivr.url %&gt;&lt;%- url_for('/libs/valine/av-min.js') %&gt;"&gt;&lt;/script&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>      
 
-<ol start="7">
-<li>点击 class 下的 _User 添加列，列名称为 img，默认值填上你这个账号想要用的发布说说的头像url，这一项不进行配置，说说头像会显示为默认头像 —— Artitalk 的 logo。</li>
-</ol>
-<img src="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/%E5%9B%BE%E7%89%8710.png" class="">
+<img src="/2022/07/20/shi-yong-valine-gei-hexo-zhu-ti-tian-jia-ping-lun-mo-kuai-jie-jue-ping-lun-wu-fa-ti-jiao-de-wen-ti/%E5%9B%BE%E7%89%876.png" class="">   
 
-<ol start="8">
-<li>在最菜单栏中找到设置-&gt; 应用 keys，记下来 AppID 和 AppKey ，一会会用。</li>
-</ol>
-<img src="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/%E5%9B%BE%E7%89%8711.png" class="">
+<p>在D盘，选中Blog文件夹，右键，选择Git Bush Here，输入命令<code>hexo g &amp;&amp; hexo s</code>出现以下页面，评论可以成功提交了！      </p>
+<img src="/2022/07/20/shi-yong-valine-gei-hexo-zhu-ti-tian-jia-ping-lun-mo-kuai-jie-jue-ping-lun-wu-fa-ti-jiao-de-wen-ti/%E5%9B%BE%E7%89%877.png" class="">   
 
-<ol start="9">
-<li>最后将 _User 中的权限全部调为指定用户，或者数据创建者，为了保证不被篡改用户数据以达到强制发布说说。</li>
-</ol>
-<img src="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/%E5%9B%BE%E7%89%8712.png" class="">
+<p>最后，输入命令<code>hexo cl &amp;&amp; hexo g &amp;&amp; hexo d</code>发布</p>
 
-<img src="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/%E5%9B%BE%E7%89%8713.png" class="">
-
-<img src="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/%E5%9B%BE%E7%89%8714.png" class="">
-
-<p>❗ 关于设置权限的这几步     </p>
-<p>这几步一定要设置好，才可以保证不被 “闲人” 破解发布说说的验证</p>
-<h2 id="开始使用"><a href="#开始使用" class="headerlink" title="开始使用"></a>开始使用</h2><p>我的Hexo安装在D:\Blog路径下，接下来的步骤按照你所安装的位置来操作。     </p>
-<p>在D盘，选中Blog文件夹，右键，选择Git Bush Here      </p>
-<p>如果在你的博客 source 目录下还没有 artitalk.md 文件，那么你就需要新建一个</p>
-<pre class="line-numbers language-none"><code class="language-none">hexo new page artitalk      <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<img src="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/%E5%9B%BE%E7%89%8715.png" class="">
-
-<p>编辑你刚刚新建的页面文件 /source/artitalk/index.md，至少需要以下内容：      </p>
-<pre class="line-numbers language-none"><code class="language-none">---
-title: artitalk
-date: 2022-07-17 14:10:10
-type: artitalk
-layout: 'artitalk'
----<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<img src="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/%E5%9B%BE%E7%89%8716.png" class="">
-
-<p>在D:\Blog\themes\matery\layout路径下新建一个artitalk.ejs文件，编辑文件，至少需要以下内容：      </p>
-<pre class="line-numbers language-none"><code class="language-none">&lt;%- partial('_partial/bg-cover') %&gt;
-
-&lt;!-- 引用 artitalk --&gt;
-&lt;script type="text/javascript" src="https://unpkg.com/artitalk"&gt;&lt;/script&gt;
-&lt;!-- 存放说说的容器 --&gt;
-&lt;div id="artitalk_main"&gt;&lt;/div&gt;
-&lt;script&gt;
-new Artitalk({
-    appId: '', // Your LeanCloud appId
-    appKey: '' // Your LeanCloud appKey
-})
-&lt;/script&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<img src="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/%E5%9B%BE%E7%89%8717.png" class="">
-
-<p>编辑D:\Blog\themes\matery路径下的_config.yml文件，配置菜单导航的名称、路径和图标，内容如下      </p>
-<pre class="line-numbers language-none"><code class="language-none">Artitalk:
-    url: /artitalk
-icon: fas fa-comment<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-
-<img src="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/%E5%9B%BE%E7%89%8718.png" class="">
-
-<p>在D盘，选中Blog文件夹，右键，选择Git Bush Here，先不更新部署，输入以下命令查看效果      </p>
-<pre class="line-numbers language-none"><code class="language-none">hexo g &amp;&amp; hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>      
-
-<p>出现如下页面         </p>
-<img src="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/%E5%9B%BE%E7%89%8719.png" class="">
-
-<p>登录账号        </p>
-<img src="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/%E5%9B%BE%E7%89%8720.png" class="">
-
-<p>这是发布说说的效果      </p>
-<img src="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/%E5%9B%BE%E7%89%8721.png" class="">
-
-<p>如果做到这一步，那说明成功了，最后，输入命令发布        </p>
-<pre class="line-numbers language-none"><code class="language-none">hexo cl &amp;&amp; hexo g &amp;&amp; hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
                 
             </div>
             <hr/>
@@ -588,7 +519,7 @@ icon: fas fa-comment<span aria-hidden="true" class="line-numbers-rows"><span></s
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/">http://example.com/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/</a>
+                    <a href="http://example.com/2022/07/20/shi-yong-valine-gei-hexo-zhu-ti-tian-jia-ping-lun-mo-kuai-jie-jue-ping-lun-wu-fa-ti-jiao-de-wen-ti/">http://example.com/2022/07/20/shi-yong-valine-gei-hexo-zhu-ti-tian-jia-ping-lun-mo-kuai-jie-jue-ping-lun-wu-fa-ti-jiao-de-wen-ti/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -642,8 +573,8 @@ icon: fas fa-comment<span aria-hidden="true" class="line-numbers-rows"><span></s
                                     <span class="chip bg-color">Github</span>
                                 </a>
                             
-                                <a href="/tags/Artitalk/">
-                                    <span class="chip bg-color">Artitalk</span>
+                                <a href="/tags/Valine/">
+                                    <span class="chip bg-color">Valine</span>
                                 </a>
                             
                         </div>
@@ -1077,9 +1008,10 @@ icon: fas fa-comment<span aria-hidden="true" class="line-numbers-rows"><span></s
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2022/07/20/shi-yong-valine-gei-hexo-zhu-ti-tian-jia-ping-lun-mo-kuai-jie-jue-ping-lun-wu-fa-ti-jiao-de-wen-ti/">
                     <div class="card-image">
@@ -1097,9 +1029,9 @@ icon: fas fa-comment<span aria-hidden="true" class="line-numbers-rows"><span></s
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-07-20
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-20
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1116,6 +1048,7 @@ icon: fas fa-comment<span aria-hidden="true" class="line-numbers-rows"><span></s
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -1150,24 +1083,24 @@ icon: fas fa-comment<span aria-hidden="true" class="line-numbers-rows"><span></s
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/07/16/github-hexo-da-jian-ge-ren-bo-ke/">
+                <a href="/2022/07/18/shi-yong-artitalk-wei-hexo-tian-jia-shuo-shuo-mo-kuai/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="Github+Hexo搭建个人博客">
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="使用Artitalk为Hexo添加说说模块">
                         
-                        <span class="card-title">Github+Hexo搭建个人博客</span>
+                        <span class="card-title">使用Artitalk为Hexo添加说说模块</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            使用GitHub搭建个人博客，给博客安装hexo主题
+                            使用Artitalk为Hexo添加说说模块
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-16
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-18
                             </span>
                         <span class="publish-author">
                             
@@ -1202,6 +1135,10 @@ icon: fas fa-comment<span aria-hidden="true" class="line-numbers-rows"><span></s
                     
                     <a href="/tags/Github/">
                         <span class="chip bg-color">Github</span>
+                    </a>
+                    
+                    <a href="/tags/Artitalk/">
+                        <span class="chip bg-color">Artitalk</span>
                     </a>
                     
                 </div>
